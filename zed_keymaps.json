@@ -31,7 +31,8 @@
       "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
       "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
       "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
-      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"],
+      "ctrl-w t": "terminal_panel::ToggleFocus"
     }
   }
 ]
