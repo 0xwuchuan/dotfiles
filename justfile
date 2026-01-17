@@ -35,8 +35,8 @@ ghostty:
 # Symlink zed config
 zed:
     mkdir -p ~/.config/zed
-    ln -sf {{dotfiles}}/zed/keymap.json ~/.config/zed/keymap.json
-    ln -sf {{dotfiles}}/zed/settings.json ~/.config/zed/settings.json
+    ln -sf {{dotfiles}}/config/zed/keymap.json ~/.config/zed/keymap.json
+    ln -sf {{dotfiles}}/config/zed/settings.json ~/.config/zed/settings.json
 
 # Skills management for AI coding agents
 skills_dir := dotfiles / "agents" / "skills"
